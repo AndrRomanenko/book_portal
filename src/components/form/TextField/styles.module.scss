@@ -1,0 +1,29 @@
+.this {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+
+  :global(.MuiOutlinedInput-input) {
+    padding: 12px;
+  }
+
+  :global(.MuiOutlinedInput-inputAdornedStart) {
+    padding-left: 0px;
+  }
+
+  :global {
+    .MuiOutlinedInput-multiline {
+      padding: 0px;
+    }
+  }
+
+  :global(.MuiFormHelperText-root) {
+    margin: 0;
+  }
+
+  .icon {
+    opacity: 0.5;
+    width: 18px;
+    height: 18px;
+  }
+}

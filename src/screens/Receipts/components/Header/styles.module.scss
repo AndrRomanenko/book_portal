@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  @media only screen and (min-width: 1500px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .filtersSection{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    @media only screen and (max-width: 1499px) {
+      margin-bottom: 25px;
+    }
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+      align-items:flex-start;
+    }
+    @media only screen and (max-width: 700px) {
+      margin-bottom: 9px;
+    }
+  }
+
+  .actionButtons {
+    display: flex;
+    @media only screen and (min-width: 701px) and (max-width: 1499px) {
+      width: 100%;
+      justify-content: flex-end;
+    }
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+    }
+    @media only screen and (max-width: 500px) {
+      flex-direction: column;
+      width: 100%;
+      .button {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: 5%;
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+      text-align: start;
+      margin-right: 0;
+    }
+    @media only screen and (min-width: 1500px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .filters {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    width: 100%;
+    @media only screen and (min-width: 1500px) {
+      margin-bottom: 0;
+    }
+    @media only screen and (max-width: 700px) {
+      flex-direction: column;
+      width: 100%;
+      align-items: flex-end;
+    }
+
+    .filter {
+      margin-right: 20px;
+      @media only screen and (max-width: 700px) {
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .button {
+    margin-top: 0;
+    @media only screen and (max-width: 700px) {
+      width: 50%;
+    }
+  }
+
+  .downloadButton {
+    margin-right: 15px;
+  }
+}

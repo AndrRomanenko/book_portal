@@ -1,0 +1,1 @@
+export { PortalRouting } from './PortalRouting'

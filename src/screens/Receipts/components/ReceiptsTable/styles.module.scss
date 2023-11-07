@@ -1,0 +1,39 @@
+// not the best idea, fix it soon...
+.container {
+  @media only screen and (min-height: 500px) and (min-width: 700px) {
+    max-height: calc(100vh - 315px);
+  }
+}
+
+.unread {
+  font-weight: bold;
+}
+
+.failed {
+  opacity: 0.2;
+  font-weight: 400;
+}
+
+.closeButton {
+  padding: 4px;
+  .icon {
+    font-size: 1.25rem;
+  }
+}
+
+.orderLabel {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerLabelContainer {
+  display: flex;
+  align-items: baseline;
+}
+

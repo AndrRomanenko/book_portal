@@ -1,0 +1,96 @@
+@import '../../../theme/colors.module.scss';
+
+
+.container {
+  height: 100vh;
+  background: #ffffff;
+}
+
+.navBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  position: relative;
+}
+
+.content {
+  padding: 25px 20px 0px;
+  @media only screen and (min-width: 1200px) {
+    padding: 25px 60px 0px;
+  }
+}
+
+
+.appInfo {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid;
+  height: 100%;
+  padding: 0px 15px;
+
+  .logo {
+    width: 80px;
+  }
+
+  .portalInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    @media only screen and (max-width: 500px) {
+      display: none;
+    }
+    .name {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 18px;
+    }
+    .version {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.mainBarSection {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  background-size: auto 100%;
+  justify-content: flex-end;
+  height: 100%;
+
+  @media only screen and (max-width: 699px) {
+    background-image: none !important;
+  }
+
+  .time {
+    color: #ffffff;
+    font-size: 16px;
+    @media only screen and (max-width: 700px) {
+      display: none;
+    }
+  }
+}
+
+.barButton {
+  width: 70px;
+  height: 70px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.langButton {
+  text-transform: uppercase;
+  border-right: 1px solid;
+}
+
+.exitIcon {
+  margin-right: 8px;
+}

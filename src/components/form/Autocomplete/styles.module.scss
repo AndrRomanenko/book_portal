@@ -1,0 +1,19 @@
+.this {
+  width: 100%;
+
+  :global(.MuiFormHelperText-root) {
+    margin: 0;
+  }
+}
+
+:global(.MuiAutocomplete-listbox) {
+  padding: 0;
+}
+
+.popper {
+  width: auto !important;
+}
+
+.popperHidden {
+  display: none;
+}

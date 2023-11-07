@@ -1,0 +1,163 @@
+{
+  "loading": {
+    "loading": "Loading"
+  },
+  "login": {
+    "title": "Login",
+    "username": "Email",
+    "password": "Password",
+    "button": "Login",
+    "signUp": "Sign up",
+    "forgotPassword": "Forgot password?"
+  },
+  "passwordReset": {
+    "title": "Reset password",
+    "username": "Email",
+    "password": "Password",
+    "passwordCheck": "Repeat password",
+    "successMessage": "Success! Check Your email!",
+    "button": "Reset",
+    "loginLink": "Remember password? Login"
+  },
+  "registration": {
+    "title": "Registration",
+    "username": "Email",
+    "password": "Password",
+    "passwordCheck": "Repeat password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "city": "City",
+    "street": "Street",
+    "houseNumber": "House number",
+    "postalCode": "Postal code",
+    "country": "Country",
+    "registrationCode": "Registration code",
+    "button": "Register",
+    "loginLink": "Already have an account? Login",
+    "successMessage": "Success! Check Your email!"
+  },
+  "pageLayout": {
+    "sideBar": {
+      "title": "Navigation",
+      "support": "Support",
+      "contact": "Contact us",
+      "agreement": "Agreement"
+    },
+    "timeLabel": "",
+    "logout": "Logout"
+  },
+  "receipts": {
+    "filtersBar": {
+      "title": "Receipts",
+      "contractPartner": "Partner",
+      "article": "Article",
+      "description": "Description",
+      "fromDate": "From",
+      "toDate": "To",
+      "download": "Download",
+      "evidenceQuestion": "Question about evidence"
+    },
+    "table": {
+      "receiptNumber": "Receipt №",
+      "date": "Date",
+      "amount": "Amount",
+      "contractPartner": "Contract partner",
+      "description": "Description"
+    },
+    "pagination": {
+      "perPage": "Rows per page",
+      "separatorLabel": "of"
+    }
+  },
+  "modals": {
+    "download": {
+      "title": "Download receipts",
+      "label": "The following documents will be downloaded",
+      "accept": "Download",
+      "cancel": "Cancel"
+    },
+    "evidence": {
+      "title": "Question about evidence",
+      "label": "Document №",
+      "question": "Question?",
+      "accept": "Submit",
+      "cancel": "Cancel"
+    },
+    "contact": {
+      "title": "Contact",
+      "label": "Your message",
+      "subject": "Subject",
+      "message": "Message",
+      "accept": "Submit",
+      "cancel": "Cancel"
+    },
+    "agreement": {
+      "title": "Agreement",
+      "cancel": "Close"
+    }
+  },
+  "errorPages": {
+    "notFound": {
+      "title": "404 Page not found!",
+      "goBack": "Go back"
+    }
+  },
+  "validations": {
+    "required": "This field is required",
+    "equalPasswords": "Passwords should be equal",
+    "recaptcha": "Recaptcha not verified",
+    "auth": {
+      "email": "Should be valid email format",
+      "password": {
+        "minLength": "Password should be at least 10 characters length",
+        "includeNumber": "Password must include at least one number",
+        "includeLowercase": "Password must include at least one lowercase letter",
+        "includeUppercase": "Password must include at least one uppercase letter",
+        "includeSpecialCharacter": "Password should include at lease one special character"
+      }
+    }
+  },
+  "notifications": {
+    "fileDownload": "Download will start in a few seconds",
+    "messageSent": "Your message has been sent successfully",
+    "passwordReset": "Password reset successful"
+  },
+  "serverErrors": {
+    "unexpected": "An unexpected error occurred",
+    "1": "An unexpected server error occurred",
+    "100": "Authentication error occurred",
+    "101": "Invalid username or password",
+    "102": "Authentication error. Access denied",
+    "103": "You need to login in order to perform this action",
+    "104": "An error occurred while session update",
+    "105": "An error occured white registration token validation",
+    "106": "Should be >10 characters, include special character, uppercase and lowercase letter",
+    "201": "Registration error. User not found",
+    "202": "Sending error. Publisher(s) not found",
+    "203": "Sending error. Portal email not found",
+    "204": "Error. Download data not found",
+    "210": "Unable to download receipt",
+    "221": "Token processing error occurred",
+    "222": "File processing error occurred",
+    "223": "Email processing error occurred",
+    "224": "Registration processing error occured",
+    "301": "Validation error. Username must be specified",
+    "302": "Validation error. At least one receipt id must be specified",
+    "303": "Validation error. Message must be specified",
+    "304": "Validation error. Subject must be specified",
+    "305": "Password must be specified",
+    "306": "Registration error. Token is empty.",
+    "307": "All registration fields must be specified"
+  },
+  "components": {
+    "datePicker": {
+      "cancelButton": "Cancel",
+      "clearButton": "Clear",
+      "minDateLabel": "Min date:",
+      "maxDateLabel": "Max date:"
+    },
+    "autocomplete": {
+      "noOptions": "No matches found"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.this {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: absolute;
+  top: 70px;
+  height: calc(100vh - 70px);
+  transform: translate(-100%, 0px);
+  transition: all 0.4s ease;
+  width: 300px;
+  z-index: 100;
+  border-right: 1px solid #c3c4c5;
+  box-shadow: 0px -1px 11px -4px #888;
+  padding: 30px 20px;
+  box-sizing: border-box;
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .label {
+    margin-bottom: 15px;
+  }
+
+  .menuButton {
+    width: 100%;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    text-align: inherit;
+    font-size: 16px;
+    color: #4b5053;
+  }
+}
+
+.open {
+  transform: translate(0%, 0px);
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid #d8ebf2;
+  margin: 20px 0;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 99;
+}
+
+.backgroundHidden {
+  display: none;
+}

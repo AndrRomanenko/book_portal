@@ -1,0 +1,28 @@
+@import '../../theme/colors.module.scss';
+
+.this {
+  text-transform: none;
+  background-color: $c-button-primary;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
+  padding: 8px 30px;
+  height: 45px;
+  border-radius: 50px;
+  min-width: 110px;
+  white-space: nowrap;
+  opacity: 0.8;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background-color: $c-button-primary;
+    opacity: 1;
+  }
+}
+
+.secondary {
+  background-color: $c-button-secondary;
+  &:hover {
+    background-color: $c-button-secondary;
+  }
+}

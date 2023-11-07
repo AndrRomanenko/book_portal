@@ -1,0 +1,163 @@
+{
+  "loading": {
+    "loading": "Wird geladen"
+  },
+  "login": {
+    "title": "Registrierung",
+    "username": "Email",
+    "password": "Passwort",
+    "button": "Anmelden",
+    "signUp": "Anmelden",
+    "forgotPassword": "Passwort vergessen?"
+  },
+  "passwordReset": {
+    "title": "Passwort zurücksetzen",
+    "username": "Email",
+    "password": "Password",
+    "passwordCheck": "Passwort wiederholen",
+    "successMessage": "Erfolg! Überprüfen Sie Ihren Posteingang!",
+    "button": "Zurücksetzen",
+    "loginLink": "Passwort merken? Anmeldung"
+  },
+  "registration": {
+    "title": "Registrierung",
+    "username": "Email",
+    "password": "Passwort",
+    "passwordCheck": "Passwort wiederholen",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "city": "Stadt",
+    "street": "Straße",
+    "houseNumber": "Hausnummer",
+    "postalCode": "Postleitzahl",
+    "country": "Land",
+    "registrationCode": "Registrierungsschlüssel",
+    "button": "Register",
+    "loginLink": "Sie haben bereits ein Konto? Anmeldung",
+    "successMessage": "Erfolg! Überprüfen Sie Ihren Posteingang!"
+  },
+  "pageLayout": {
+    "sideBar": {
+      "title": "Navigation",
+      "support": "Belege",
+      "contact": "Kontakt",
+      "agreement": "Impressum"
+    },
+    "timeLabel": "Uhr",
+    "logout": "Abmelden"
+  },
+  "receipts": {
+    "filtersBar": {
+      "title": "Belege",
+      "contractPartner": "Vertragspartner",
+      "article": "Artikel",
+      "description": "Bezeichnung",
+      "fromDate": "Von",
+      "toDate": "Bis",
+      "download": "Herunterladen",
+      "evidenceQuestion": "Frage zu Beleg"
+    },
+    "table": {
+      "receiptNumber": "Belegnr.",
+      "date": "Datum",
+      "amount": "Betrag",
+      "contractPartner": "Vertragspartner",
+      "description": "Bezeichnung"
+    },
+    "pagination": {
+      "perPage": "Zeilen pro Seite",
+      "separatorLabel": "von"
+    }
+  },
+  "modals": {
+    "download": {
+      "title": "Belege herunterladen",
+      "label": "Folgende Belege werden heruntergeladen",
+      "accept": "Herunterladen",
+      "cancel": "Abbrechen"
+    },
+    "evidence": {
+      "title": "Frage zu Beleg",
+      "label": "Beleg Nr.",
+      "question": "Frage?",
+      "accept": "Absenden",
+      "cancel": "Abbrechen"
+    },
+    "contact": {
+      "title": "Absenden",
+      "label": "Ihre Nachricht",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "accept": "Absenden",
+      "cancel": "Abbrechen"
+    },
+    "agreement": {
+      "title": "Impressum",
+      "cancel": "Schließen"
+    }
+  },
+  "errorPages": {
+    "notFound": {
+      "title": "404 Seite nicht gefunden!",
+      "goBack": "Geh zurück"
+    }
+  },
+  "validations": {
+    "required": "Dieses Feld ist erforderlich",
+    "equalPasswords": "Passwörter sollten gleich sein",
+    "recaptcha": "reCAPTCHA nicht verifiziert",
+    "auth": {
+      "email": "Sollte ein gültiges E-Mail-Format sein",
+      "password": {
+        "minLength": "Das Passwort sollte mindestens 10 Zeichen lang sein",
+        "includeNumber": "Passwort muss mindestens eine Ziffer enthalten",
+        "includeLowercase": "Das Passwort muss mindestens einen Kleinbuchstaben enthalten",
+        "includeUppercase": "Das Passwort muss mindestens einen Großbuchstaben enthalten",
+        "includeSpecialCharacter": "Das Passwort sollte mindestens ein Sonderzeichen enthalten"
+      }
+    }
+  },
+  "notifications": {
+    "fileDownload": "Der Download beginnt in wenigen Sekunden",
+    "messageSent": "Ihre Nachricht wurde erfolgreich gesendet",
+    "passwordReset": "Passwort zurücksetzen erfolgreich"
+  },
+  "serverErrors": {
+    "unexpected": "Ein unerwarteter fehler ist aufgetreten",
+    "1": "Ein unerwarteter serverfehler ist aufgetreten",
+    "100": "Authentifizierungsfehler aufgetreten",
+    "101": "Ungültiger benutzername oder passwort",
+    "102": "Authentifizierungsfehler. Zugriff abgelehnt",
+    "103": "Sie müssen sich anmelden, um diese aktion auszuführen",
+    "104": "Bei der sitzungsaktualisierung ist ein fehler aufgetreten",
+    "105": "Bei der Validierung des weißen Registrierungs-Tokens ist ein Fehler aufgetreten",
+    "106": "Sollte >10 zeichen enthalten, sonderzeichen, Groß- und kleinbuchstaben enthalten",
+    "201": "Registrierungsfehler. Benutzer wurde nicht gefunden",
+    "202": "Fehler beim senden. Verlag(e) nicht gefunden",
+    "203": "Fehler beim senden. Portal-E-Mail nicht gefunden",
+    "204": "Fehler. Download-Daten nicht gefunden",
+    "210": "Quittung kann nicht heruntergeladen werden",
+    "221": "Token-Verarbeitungsfehler aufgetreten",
+    "222": "Fehler bei der dateiverarbeitung aufgetreten",
+    "223": "Fehler bei der E-Mail-Verarbeitung aufgetreten",
+    "224": "Fehler bei der Registrierungsverarbeitung aufgetreten",
+    "301": "Validierungsfehler. Benutzername muss angegeben werden",
+    "302": "Validierungsfehler. Es muss mindestens eine Quittungs-ID angegeben werden",
+    "303": "Validierungsfehler. Nachricht muss angegeben werden",
+    "304": "Validierungsfehler. Betreff muss angegeben werden",
+    "305": "Passwort muss angegeben werden",
+    "306": "Registrierungsfehler. Token ist leer.",
+    "307": "Alle Registrierungsfelder müssen angegeben werden"
+  },
+  "components": {
+    "datePicker": {
+      "cancelButton": "Abbrechen",
+      "clearButton": "Klar",
+      "minDateLabel": "Min datum:",
+      "maxDateLabel": "Max datum:"
+    },
+    "autocomplete": {
+      "noOptions": "Keine treffer gefunden"
+    }
+  }
+}
